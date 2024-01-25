@@ -49,3 +49,6 @@ color = Colors() # color object for reference in other files
 delta_time = 0
 events = None
 framerate = 120
+
+# camera stuff
+global_offset = pygame.math.Vector2(0, 0)
